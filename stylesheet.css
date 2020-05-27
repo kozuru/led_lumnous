@@ -917,14 +917,14 @@ h1 {
 }
 @media(max-width:670px){
   .body img{
-  margin-top:-109.6px;
+  margin-top:-109.4px;
   margin-left:40.8%;
 }
 light {
   position: relative;
   width: 43.5px;
   height: 24px;
-  padding: 9px 0  6px 0;
+  padding: 7px 0  8px 0;
   margin-right:-8px;
   background-color: #222;
 
