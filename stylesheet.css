@@ -20,8 +20,8 @@ h1 {
   text-align: center;
 }
 .body img{
-  margin-top:-109.5px;
-  margin-left:47.55%;
+  margin-top:-108.0px;
+  margin-left:47.65%;
 }
 /* LIGHT BAR ESSENTIALS */
 .lightbar {
@@ -50,9 +50,9 @@ h1 {
 
 .light {
   position: relative;
-  width: 43px;
-  height: 22px;
-  padding: 9px 0  6px 0;
+  width: 43.5px;
+  height: 24px;
+  padding: 11px 0  4px 0;
   margin-right:-8px;
   background-color: #222;
 
@@ -918,7 +918,7 @@ h1 {
 }
 @media(max-width:670px){
   .body img{
-  margin-top:-110.5px;
-  margin-left:40.5%;
+  margin-top:-110.2px;
+  margin-left:41%;
 }
 }
