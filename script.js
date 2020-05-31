@@ -83,3 +83,13 @@ $('#warn-right').on('click', function(){
   $(this).addClass('active');
   $('.light').attr('class', 'light warn right');
 })
+$('#meteor').on('click', function(){
+  $('button').removeClass('active');
+  $(this).addClass('active');
+  $('#light-1,#light-2,#light-4,#light-5').attr('class', 'light meteor');
+})
+$('#meteor').on('click', function(){
+  $('button').removeClass('active');
+  $(this).addClass('active');
+  $('#light-1,#light-2,#light-4,#light-5').attr('class', 'light meteor');
+})
