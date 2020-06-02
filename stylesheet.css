@@ -1469,8 +1469,8 @@ h1 {
 /*スマホresponsive*/
 @media(max-width:670px){
   .body img{
-  margin-top:-110.5px;
-  margin-left:40.8%;
+  margin-top:-111.5px;
+  margin-left:40.9%;
 }
 .luminous{
   transform:scale(0.90);
