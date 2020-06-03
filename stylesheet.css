@@ -1473,7 +1473,7 @@ h1 {
   margin-left:41%;
 }
 .luminous{
-  transform:scale(0.88);
+  transform:scale(0.85);
 }
 }
 @media(max-width:1070px{
@@ -1482,6 +1482,6 @@ h1 {
   margin-left:41%;
 }
 .luminous{
-  transform:scale(0.88);
+  transform:scale(0.85);
 }
 }
