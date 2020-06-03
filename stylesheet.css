@@ -1469,10 +1469,10 @@ h1 {
 /*スマホresponsive*/
 @media(max-width:670px){
   .body img{
-  margin-top:-111.5px;
-  margin-left:40.9%;
+  margin-top:-108.5px;
+  margin-left:41%;
 }
 .luminous{
-  transform:scale(0.90);
+  transform:scale(0.88);
 }
 }
