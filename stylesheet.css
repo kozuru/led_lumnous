@@ -1476,3 +1476,12 @@ h1 {
   transform:scale(0.88);
 }
 }
+@media(max-width:1070px{
+.body img{
+  margin-top:-108.5px;
+  margin-left:41%;
+}
+.luminous{
+  transform:scale(0.88);
+}
+}
