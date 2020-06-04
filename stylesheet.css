@@ -19,7 +19,7 @@ h1 {
   text-align: center;
 }
 .body img{
-  margin-top:-112px;
+  margin-top:-111px;
   margin-left:47.45%;
 }
 /* LIGHT BAR ESSENTIALS */
@@ -1467,21 +1467,32 @@ h1 {
  }
 }
 /*スマホresponsive*/
-@media(max-width:670px){
+@media screen and (max-width: 1024px) {
+  .body img{
+    margin-top:-112px;
+    margin-left:45.45%;
+}
+.luminous{
+  transform:scale(0.77);
+}
+
+ }
+@media screen and (max-width: 896px) and (orientation: landscape) {
   .body img{
   margin-top:-111.5px;
-  margin-left:40.8%;
+  margin-left:44.8%;
 }
 .luminous{
-  transform:scale(0.79);
+  transform:scale(0.77);
 }
-}
-@media(max-width:1070px){
-.body img{
+
+ }
+@media screen and (max-width: 480px) {
+  .body img{
   margin-top:-111.5px;
-  margin-left:42.8%;
+  margin-left:40.63%;
 }
 .luminous{
-  transform:scale(0.79;
+  transform:scale(0.77);
 }
-}
+ }
