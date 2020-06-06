@@ -1495,4 +1495,6 @@ h1 {
 .luminous{
   transform:scale(0.77);
 }
- }
+.firefly .bulb {  
+ left:1%; }
+}
