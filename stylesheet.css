@@ -19,13 +19,13 @@ h1 {
   text-align: center;
 }
 .body img{
-  margin-top:-111px;
-  margin-left:48.95%;
+  margin-top:-109px;
+  margin-left:47.94%;
 }
 .body-logo img{
   position:absolute;
-  top:257px;
-  left:98.5%;
+  top:283px;
+  left:48.8%;
 }
 /* LIGHT BAR ESSENTIALS */
 .lightbar {
@@ -1484,8 +1484,8 @@ h1 {
  }
 @media screen and (max-width: 896px) and (orientation: landscape) {
   .body img{
-  margin-top:-111.5px;
-  margin-left:44.8%;
+  margin-top:-109.5px;
+  margin-left:42.15%;
 }
 .luminous{
   transform:scale(0.77);
@@ -1508,4 +1508,9 @@ h1 {
   top:268px;
   left:44.8%;
 } 
+  .body-logo img{
+  position:absolute;
+  top:260.8px;
+  left:45.3%;
+}
 }
