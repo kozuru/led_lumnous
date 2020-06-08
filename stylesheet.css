@@ -22,6 +22,11 @@ h1 {
   margin-top:-111px;
   margin-left:47.45%;
 }
+.body-logo img{
+  position:absolute;
+  top:287px;
+  left:48.5%;
+}
 /* LIGHT BAR ESSENTIALS */
 .lightbar {
   position: relative;
@@ -1498,4 +1503,9 @@ h1 {
 .firefly .bulb {  
  top:-2.5px;
  left:10%; }
+ .body-logo img{
+  position:absolute;
+  top:268px;
+  left:44.8%;
+} 
 }
