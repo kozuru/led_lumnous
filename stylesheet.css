@@ -1474,45 +1474,36 @@ h1 {
 }
 
 /*スマホresponsive*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
+  .luminous{
+    transform:scale(0.85);
+  }
   .body img{
-    margin-top:-112px;
-    margin-left:45.45%;
-}
-.luminous{
-  transform:scale(0.77);
+  margin-top:-111.1px;
+  margin-left:46.01%;
 }
 
+.body-logo img{
+  top:256.8px;
+  left:47.75%;
+}
  }
-@media screen and (max-width: 896px) and (orientation: landscape) {
+
+@media screen and (max-width: 670px) {
   .body img{
   margin-top:-109.5px;
   margin-left:42.15%;
-}
-.luminous{
-  transform:scale(0.77);
-}
 
- }
-@media screen and (max-width: 480px) {
-  .body img{
-  margin-top:-108.5px;
-  margin-left:42.15%;
 }
 .luminous{
   transform:scale(0.77);
 }
-.firefly .bulb {  
- top:-2.5px;
- left:10%; }
- .body-logo img{
-  position:absolute;
-  top:268px;
-  left:44.8%;
-} 
-  .body-logo img{
-  position:absolute;
+.firefly .bulb{
+  top:-2.5px;
+  left:10%;
+}
+.body-logo img{
   top:260.8px;
-  left:45.5%;
+  left:45.3%;
 }
-}
+ }
