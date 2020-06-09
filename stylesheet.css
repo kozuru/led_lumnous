@@ -1471,6 +1471,143 @@ h1 {
    box-shadow: 0 0 17px 9px #fff100;
  }
 }
+/*GODBLADE ROTATION CSS*/
+.animations {
+  background-color: #000;
+  color: #111;
+  position:relative;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight:900;
+  letter-spacing:-4px;
+ 
+}
+.forword,.reverse{
+   position:absolute;
+  top:120px;
+  left:40%;
+}
+
+.forword  span{
+  animation: glow-forword 3.7s ease infinite;
+
+}
+.reverse span  {
+  animation: glow-reverse 3.7s ease  infinite;
+
+}
+@keyframes glow-forword{
+   0%,100%{ color:#fff;
+  text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD,0 0 200px #0652DD,0 0 400px #0652DD,0 0 800px #0652DD ;
+
+  }
+  10%,90%{ color:#000;
+  opacity:0;
+  }
+
+}
+@keyframes glow-reverse{
+   0%,100%{ color:#fff;
+   text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD,0 0 200px #0652DD,0 0 400px #0652DD,0 0 800px #0652DD ;
+
+  }
+  10%,90%{ color:#000;
+  opacity:0;
+  }
+
+}
+.forword span:nth-of-type(9) {
+	animation-delay: 0.01s;
+
+}
+.forword span:nth-of-type(8) {
+	animation-delay: 0.21s;
+
+}
+
+.forword span:nth-of-type(7) {
+	animation-delay: 0.42s;
+
+}
+
+.forword  span:nth-of-type(6) {
+	animation-delay: 0.63s;
+}
+
+.forword  span:nth-of-type(5) {
+	animation-delay: 0.84s;
+
+}
+
+.forword span:nth-of-type(4) {
+	animation-delay: 1.05s;
+
+}
+
+.forword span:nth-of-type(3) {
+	animation-delay: 1.26s;
+
+}
+.forword span:nth-of-type(2) {
+	animation-delay: 1.47s;
+
+}
+.forword span:nth-of-type(1) {
+	animation-delay: 1.68s;
+
+}
+.reverse  span:nth-of-type(1) {
+	animation-delay: 1.89s;
+}
+.reverse span:nth-of-type(2) {
+	animation-delay: 2.1s;
+
+}
+
+.reverse  span:nth-of-type(3) {
+	animation-delay: 2.31s;
+}
+
+.reverse  span:nth-of-type(4) {
+	animation-delay: 2.52s;
+
+}
+
+.reverse span:nth-of-type(5) {
+	animation-delay: 2.73s;
+
+}
+
+.reverse span:nth-of-type(6) {
+	animation-delay: 2.94s;
+
+}
+.reverse span:nth-of-type(7) {
+	animation-delay: 3.15s;
+
+}
+.reverse span:nth-of-type(8) {
+	animation-delay: 3.36s;
+
+}
+.reverse span:nth-of-type(9) {
+	animation-delay: 3.57s;
+}
+
+/*-------------------*/
+/*-------------------*/
+/*スマホcss*/
+@media(max-width:670px){
+.animations {
+  font-size: 20px;
+   letter-spacing:-1px;
+}
+.forword,.reverse{
+  top:-337px;
+  left:27%;
+}
+}
+
 /*スマホresponsive*/
 @media screen and (max-width: 1024px) {
   .body img{
